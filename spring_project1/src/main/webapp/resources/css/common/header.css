@@ -1,0 +1,14 @@
+*{
+	margin:0;
+	paddin:0;
+}
+
+#header{
+	height:30px;
+	background-color:#333;
+	color:white;
+	padding:20px;
+	text-align:24px;
+	font-weight:bold;
+}
+	
