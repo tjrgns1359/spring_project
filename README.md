@@ -65,8 +65,8 @@
 ![DB 구조](image-4.png)
 
 #### API 설계
-![API 구조]"(<img width="2400" height="1600" alt="api_methods_table" src="https://github.com/user-attachments/assets/0cbf6a34-4a5c-4df0-a24d-1ddeae1dd481" />
-)"
+<img width="2400" height="1600" alt="api_methods_table" src="https://github.com/user-attachments/assets/0cbf6a34-4a5c-4df0-a24d-1ddeae1dd481" />
+
 
 ---
 
