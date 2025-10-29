@@ -62,7 +62,8 @@
 ![시퀀스 다이어그램](sequence-diagram.drawio-1.png)
 
 #### 데이터베이스 구조
-![DB 구조](image-4.png)
+<img width="485" height="351" alt="image" src="https://github.com/user-attachments/assets/7a77e2b0-5d9a-4ff7-bbb2-6b2c21161814" />
+
 
 #### API 설계
 <img width="2400" height="1600" alt="api_methods_table" src="https://github.com/user-attachments/assets/0cbf6a34-4a5c-4df0-a24d-1ddeae1dd481" />
@@ -80,3 +81,12 @@
 | POST   | /menu/add            | 메뉴 추가      |
 | PUT    | /menu/update/{idx}   | 메뉴 수정      |
 | PUT    | /menu/count/{idx}    | 조회수 증가    |
+
+
+## 3. 프로젝트 수행과정 및 결과
+
+-인턴과정 학습 / 개인 프로젝트임 
+-개발기간 약 3주 
+-개선해야할점 
+
+## 4. 프로젝트 후기
