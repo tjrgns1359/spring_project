@@ -2,7 +2,7 @@
 
 저바 기반 풀스택 개발자 인턴과정의 개인 프로젝트입니다.
 
-- **프로젝트 기간:** 2024.10.10 ~ 2024.10.13  
+- **프로젝트 기간:** 2025.10.01 ~ 2025.11.28  
 - **개발자:** 최석훈 (개인프로젝트)
 
 ---
@@ -26,7 +26,7 @@
 
 ### 서비스 대상
 
-- 블랙김사 수업을 듣고자 하는 학생들
+- 고객
 
 ### 담당 업무
 
@@ -50,7 +50,7 @@
 | Database       | MySQL                                    |
 | Testing        | Swagger                                  |
 | Frontend       | HTML5, CSS3, JavaScript                  |
-| Backend        | Spring Boot (v3.3.3), Java (OpenJDK-23)  |
+| Backend        | Spring Boot (v3.5.6), Java (OpenJDK-21)  |
 | IDE            | Visual Studio Code, Eclipse               |
 | Collaboration  | GitHub, Notion                           |
 
