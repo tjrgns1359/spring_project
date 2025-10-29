@@ -25,6 +25,15 @@
 			<!-- location.href=`localhost:8080/noticeAdd` -->
 		</c:if>
 	<div id="menuList">
+	<!-- <div class="menu-item">
+	<a href="#"class="menu-link" style="text-decoration:none;color:black;>
+				<h3>${menu.title}</h3>
+				<p>${menu.content}</p>
+				<small>작성자:${menu.writer},작성일:${menu.indate},조회수:${menu.count}</small>
+			</a>
+			<br/>
+			<br/>
+	</div> -->
 	</div>
 	</div>
 </div>

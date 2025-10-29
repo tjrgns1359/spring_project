@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 *{
 	margin:0;
 	padding:0;
@@ -54,18 +52,36 @@ input[type="text"]:focus,textarea:focus{
 	background-color:#fff;
 }
 
-#buttonSubmit{
-	width:100%;
-	padding:15px;
-	border:none;
-	background-color:#333;
-	color:white;
-	border-radius:5px;
-	font-size:15px;
-	cursor:pointer;
-	margin-top:10px;
+#buttonContainer{
+	display:flex;
+	justify-content:space-between;
 }
 
-#buttonSubmit:hover{
-	background-color:#0056b3;
+#buttonUpdate,#buttonDelete{
+	padding:10px 20px;
+	border:none;
+	border-radius:5px;
+	font-size:16px;
+	cursor:pointer;
+}
+
+#buttonUpdate{
+	background-color:orange;
+	color:white;
+}
+
+#buttonDelete{
+	background-color:red;
+	color:white;
+}
+
+#buttonUpdate:hover{
+	background-color:#ffffb5;
+	color:white;
+}
+
+
+#buttonDelete:hover{
+	background-color:#ff6060;
+	color:white;
 }
