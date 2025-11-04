@@ -9,6 +9,33 @@
 <meta name="_csrf_header"content="${_csrf.headerName}">
 <title>카네스블랙 카페</title>
 <link rel="stylesheet"type="text/css"href="${pageContext.request.contextPath}/resources/css/style.css">
+
+<%-- 🔽 [추가] 페이지네이션 버튼을 위한 간단한 스타일 추가 --%>
+<style>
+	#pagination-container {
+		text-align: center;
+		margin-top: 20px;
+	}
+	.pagination-btn {
+		border: 1px solid #ddd;
+		padding: 5px 10px;
+		margin: 0 2px;
+		cursor: pointer;
+		background-color: white;
+		border-radius: 4px;
+	}
+	.pagination-btn:hover {
+		background-color: #f0f0f0;
+	}
+	.pagination-btn.active {
+		background-color: #333;
+		color: white;
+		border-color: #333;
+		cursor: default;
+	}
+</style>
+<%-- 🔼 [추가] 스타일 종료 --%>
+
 </head>
 <body>
 
@@ -25,16 +52,15 @@
 			<!-- location.href=`localhost:8080/noticeAdd` -->
 		</c:if>
 	<div id="menuList">
-	<!-- <div class="menu-item">
-	<a href="#"class="menu-link" style="text-decoration:none;color:black;>
-				<h3>${menu.title}</h3>
-				<p>${menu.content}</p>
-				<small>작성자:${menu.writer},작성일:${menu.indate},조회수:${menu.count}</small>
-			</a>
-			<br/>
-			<br/>
-	</div> -->
+	<%-- (이곳은 script.js가 채울 것입니다) --%>
 	</div>
+	
+	<%-- 🔽 [추가] 페이지네이션 버튼이 생성될 컨테이너 --%>
+	<div id="pagination-container">
+		<%-- (이곳은 script.js가 채울 것입니다) --%>
+	</div>
+	<%-- 🔼 [추가] 컨테이너 종료 --%>
+	
 	</div>
 </div>
 
